@@ -58,13 +58,25 @@ const afficheLes = () =>{
       <td>${elemt.date}</td>
       <td>${elemt.titre}</td>
       <td>${elemt.categorie}</td> 
-      <td> <button class="eye"> <i class="fa-solid fa-eye"  style="color: #032662;"></i>  </button>
-      <button class="edit"> <i class="fa-regular fa-pen-to-square"  style="color: #011d02;"></i> </button>                     
-      <button class="delit"> <i class="fa-solid fa-trash"  style="color: #9c040b;"></i></td> </button>
+      <td> <button class="eye"> <i class="fa-solid fa-eye"  onclick"visualItem()"  style="color: #032662;"></i>  </button>
+      <button class="edit"> <i class="fa-regular fa-pen-to-square" onclick"editeItem()" style="color: #011d02;"></i> </button>                     
+      <button class="delit"> <i class="fa-solid fa-trash" onclick"deleteItem()" style="color: #9c040b;"></i></td> </button>
       </tr>`
     })
    
 } 
+
+const visualItem = () =>{
+
+}
+
+const editeItem = () =>{
+
+}
+
+const deleteItem = () =>{
+
+}
 
 
 const letableau = () =>{
