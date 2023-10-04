@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="sidbar">
+            <p class="taches">Ajouter des taches</p>
+            <select name="" id="slecte1"> 
+                <option disabled selected value="Categorie">Categorie</option>
+                <option value="Academique">Academique</option>
+                <option value="Extra-academique">Extra-academique</option>
+                <option value="Distraction">Distraction</option>
+            </select>
+            <input type="text" name="Titre" id="titre" placeholder="Titre">
+            <textarea name="description" id="description" rows="2" placeholder="Description"></textarea>
+            <input type="date" name="Date" id="date">
+            <select name="" id="slecte2">
+                <option disabled selected value="Statut">Statut</option>
+                <option value="Nouveau">Nouveau</option>
+                <option value="En cours">En cours</option>
+                <option value="Terminé">Terminé</option>
+            </select>
+            <button class="ajouter">Ajouter</button>
+            
+            <div class="statut">statut
+                <div>
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>  
+        </div>
+        
+       
+       <div  class="divtable">
+           
+               
+            <div>
+                <h2>Liste de taches</h2>
+                <table>
+                   
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Date</th>
+                            <th>Titre</th>
+                            <th>categorie</th>
+                            <th>operation</th>
+                        </tr>
+                    </thead>
+                    <tbody class="lesTr">
+                        
+                        
+                       
+                    </tbody>
+
+                </table>
+               
+       </div>
+            
+            <div class="lagrads">
+                <h3>description</h3>
+                <div class="lebas">
+                    z
+               </div>
+            </div>
+       
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
