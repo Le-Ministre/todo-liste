@@ -27,13 +27,13 @@ body{
     font-size: 26px;
     color: white;
 }
-#slecte1{
+#selecte1{
     margin: 15px;
     height: 30px;
     border-radius: 5px;
     margin-top: 40px;
 }
-#slecte2{
+#selecte2{
     margin: 15px;
     height: 30px;
     border-radius: 5px;
@@ -57,6 +57,17 @@ textarea{
     border: none;
     cursor: pointer;
     color: white;
+}
+.update{
+    width: 350px;
+    margin: 15px;
+    height: 35px;
+    background-color: green;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: none;
 }
 .ajouter:hover{
     background-color: white;
@@ -119,3 +130,38 @@ thead{
     border-radius: 5px;
     border: 1px solid green;
 } 
+.diva{
+    background-color: wheat;
+    border: 1px solid grey;
+    position: relative;
+    left: 200px;
+    top: 20px;
+    width: 600px;
+    height: 200px;
+    display: none;
+}
+h4{
+    background-color: green;
+    color: white;
+}
+strong{
+    display: flex;
+    margin-left: 20px;
+    padding: 8px;
+    color: green;
+}
+.notification{
+    position: relative;
+    left: 71%;
+    bottom: 24px;
+    border: 1px solid gray;
+    width: 300px;
+    display: none;
+}
+.tache{
+    background-color: green;
+    color: white;
+}
+.enregistre{
+    padding: 10px;
+}
